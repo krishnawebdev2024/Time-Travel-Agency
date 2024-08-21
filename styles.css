@@ -12,11 +12,21 @@ header {
   background-color: #333;
   padding: 10px 0;
 }
+.logoimage{
+  width: 120px;
+  height: 120px;
+  border-radius: 40%;
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 nav {
   display: flex;
   justify-content: center;
   gap: 20px;
-  height: 100px;
+
   align-items: center;
   position: fixed;
   background-color: #333;
@@ -230,4 +240,10 @@ footer {
     object-fit: cover;
 }
 
-/* ------------------------------------------------------------------ */
+/* ---------------------echo "# Time-Travel-Agency" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:krishnawebdev2024/Time-Travel-Agency.git
+git push -u origin main--------------------------------------------- */
